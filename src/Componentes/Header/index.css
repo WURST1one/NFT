@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.LOGOTYPE {
+  position: relative;
+  left: 6%;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;  
+}
+
+.container img {
+  width: 50px;
+ 
+}
+
+.NFTIFY p {
+  font-size: 24px;
+  margin-left: 30px;
+
+}
+
+.nav-bar,
+.nav-item {
+  margin-right: 30px;
+  display: flex;
+}
+
+.nav-bar a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+li a.active {
+  font-weight: 800;
+  color: slateblue
+} 
+
+
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-right: 30px;
+  padding: 10px;
+  font-size: 25px;
+  font-family: "Koulen", sans-serif;
+
+}
+
+.nav-link {
+  color: #000;
+  /* Cor padrão */
+  transition: color 0.3s;
+  /* Transição suave */
+}
+
+.nav-link:hover {
+  color: #7700ff;
+
+  transform: scale(1.3);
+  transition: transform 1.0s ease-in-out;
+
+}
+

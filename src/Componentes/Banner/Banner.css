@@ -1,0 +1,161 @@
+  @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+   
+  }
+
+ 
+  .Lively {
+    text-align: left;
+    margin-left: 20px;
+  }   
+
+
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
+  .banner .content {
+    display: flex;
+    align-items: center;
+  }
+
+  .text {
+    text-align: center;
+    position: relative;
+  }
+
+
+  .profile {
+    text-align: start;
+    margin-left: 16px;
+  
+    display: flex;
+   
+  }
+  
+  .text p {
+    width: 600px;
+    font-size: 40px;
+    font-family: "Koulen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .banner .text {
+    flex: 1;
+    align-items: center;
+  }
+
+  .banner .image {
+    flex: 1;
+    text-align: right;
+  }
+
+  .animated-img {
+    position: relative;
+    animation: moveUpDown 3s infinite alternate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+  
+
+  .animated-img:hover {
+    transform: scale(1.1);
+  
+  }
+
+  .section-two {
+  
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: 10%;
+   
+  }
+
+  
+  
+ 
+
+  .section-two p{
+      color: rgb(55, 9, 171);
+      margin-left: 9%;
+      margin-top: 8%;
+      font-size: 30px;
+      font-family: "Koulen", sans-serif;
+      
+  }
+  
+
+  .pok div {
+    margin: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: #000D35;
+    
+  }
+
+
+  
+  
+  
+  .pok img {
+    
+    height: auto; 
+    padding: 15px;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave */
+    
+  
+  }
+  
+  .pok img:hover {
+    transform: scale(1.1); /* Aplica o efeito de zoom ao passar o mouse */
+  }
+  
+
+  .Top {
+    margin-left: 8%;
+  }
+
+
+  
+  .Top-breeders {
+    display: flex;
+    margin-top: 2%;
+    width: 100%;
+ 
+    text-align: center;
+  }
+
+  .Create h3 {
+    color: #ffff;
+    text-align: start;
+    margin-left: 3.9rem;
+    font-size: 30px;
+  }
+
+
+
+  .Top-breeders .circle {
+    margin: 0 40px;
+    
+  }
+
+
+
+

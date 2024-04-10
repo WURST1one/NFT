@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}

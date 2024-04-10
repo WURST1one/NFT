@@ -1,0 +1,51 @@
+.section-two {
+  margin-top: 10%;
+  text-align: center; 
+}
+
+.section-two p {
+  align-items: start;
+  width: 50%;
+  font-size: 30px;
+  font-family: "Koulen", sans-serif;
+}
+  
+.pok-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%; 
+  margin-top: 60px; 
+}
+
+.art-piece {
+  margin: 80px;
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: #000D35;
+  border: 2px solid black;
+}
+
+.Likes {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 10%;
+}
+
+.Likes p {
+  margin: 0; 
+  margin-top: 50px;
+  font-size: 24px; 
+}
+
+.pok-container img {
+  height: auto; 
+  padding: 15px;
+  margin-top: 10px;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.pok-container img:hover {
+  transform: scale(1.1); 
+}

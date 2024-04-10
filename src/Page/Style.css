@@ -1,0 +1,57 @@
+.Contrue {
+    margin-left: 10px;
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+ }
+ 
+ .Cnt1, .Cnt2 {
+    width: 39%; 
+ }
+
+
+ 
+ .Cnt1 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    padding-right: 20px; 
+ }
+ 
+ .Cnt1 h1 {
+    text-align: center; 
+    color: white;
+    font-size: 26px;
+ }
+ 
+ .Cnt1 p {
+    text-align: justify; 
+    width: 90%;
+    margin-left: 50px;
+    color: E730CA;
+    font-size: 18px;
+ }
+ 
+
+ .Galery {
+    margin-top: 15%;
+ 
+ }
+
+ .circle {
+   display: flex; 
+   align-items: center; 
+ }
+
+.circle img {
+   width: 175px; 
+   height: 175px; 
+   margin-left: 190px;
+}
+
+.circle p {
+   margin-left: 10px;
+   color: #E730CA;
+   font-size: 18px;
+}
