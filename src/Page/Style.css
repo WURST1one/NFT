@@ -55,3 +55,22 @@
    color: #E730CA;
    font-size: 18px;
 }
+
+
+.button {
+   text-align: center;
+}
+
+
+.Upload {
+   margin-top: 30px;
+}
+
+#imageUrl, #imageName {
+  display: flex;
+   width: 50%;
+}
+
+.add-image-form {
+   margin-left: 30%;
+}
